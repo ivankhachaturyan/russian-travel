@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 320px) {
     .place__wedsite {
-       min-width: 288px; 
+       min-width: 288px;
        margin: 0 auto;
     }
 }
