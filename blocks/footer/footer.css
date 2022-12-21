@@ -1,0 +1,33 @@
+.footer {
+    margin: 0;
+    max-width: 1184px;
+    display: grid;
+    margin: 92px auto 0;
+    padding-bottom: 24px;
+    grid-template-columns: repeat(5, auto) 1fr;
+    column-gap: 18px;
+
+}
+
+@media screen and (max-width: 1190px) {
+    .footer {
+        max-width:928px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .footer {
+        max-width:720px;
+        margin: 88px auto 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer {
+        max-width:288px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto) 1fr;
+        row-gap: 32px;
+        margin: 64px auto 0;
+    }
+}
