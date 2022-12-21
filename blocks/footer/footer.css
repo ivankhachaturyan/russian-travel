@@ -1,12 +1,10 @@
 .footer {
-    margin: 0;
     max-width: 1184px;
     display: grid;
     margin: 92px auto 0;
     padding-bottom: 24px;
     grid-template-columns: repeat(5, auto) 1fr;
     column-gap: 18px;
-
 }
 
 @media screen and (max-width: 1190px) {
