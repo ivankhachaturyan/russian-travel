@@ -1,7 +1,6 @@
 .place__wedsite {
     margin: 0;
     max-width: 456px;
-    height: 46px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

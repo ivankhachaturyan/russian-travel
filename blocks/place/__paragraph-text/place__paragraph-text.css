@@ -1,5 +1,6 @@
 .place__paragraph-text {
     margin: 0;
+    padding: 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -8,15 +9,15 @@
     color: #FFFFFF; 
 }
 
-.place__paragraph-text:first-child {
-    margin-bottom: 26px;
+.place__paragraph-text:nth-child(even) {
+    margin-top: 26px;
 }
 
 @media screen and (max-width: 768px) {
     .place__paragraph-text {
         font-size: 16px;
     }
-    .place__paragraph-text:first-child {
-        margin-bottom: 25px;
+    .place__paragraph-text:nth-child(even) {
+        margin-top: 25px;
     }
 }

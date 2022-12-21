@@ -1,6 +1,5 @@
 .lead {
     max-width: 984px;
-    max-height: 1005px;
     margin: 0 auto;
     margin-top: 56px;
     display: flex;
@@ -12,7 +11,6 @@
 @media screen and (max-width: 1024px) {
     .lead {
         max-width: 928px;
-        max-height: 962px;
         margin-top: 48px;
     }
 }

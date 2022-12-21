@@ -1,11 +1,7 @@
 .lead__image {
     margin: 0;
-    width: 100%;
-    height: 615px;
-    background: url(../../../images/Spimvpoezde.jpg);
-    background-position: center;
-    background-size: cover;
     margin-top: 64px;
+    width: 100%;
 }
 
 @media screen and (max-width: 1024px) {

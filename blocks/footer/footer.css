@@ -1,10 +1,10 @@
 .footer {
     max-width: 1184px;
-    display: grid;
+    display: flex;
+    justify-content: space-between;
     margin: 92px auto 0;
     padding-bottom: 24px;
-    grid-template-columns: repeat(5, auto) 1fr;
-    column-gap: 18px;
+    
 }
 
 @media screen and (max-width: 1190px) {
@@ -22,10 +22,8 @@
 
 @media screen and (max-width: 650px) {
     .footer {
+        flex-direction: column;
         max-width:288px;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, auto) 1fr;
-        row-gap: 32px;
         margin: 64px auto 0;
     }
 }

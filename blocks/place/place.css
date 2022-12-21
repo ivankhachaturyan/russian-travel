@@ -5,7 +5,7 @@
     row-gap: 48px;
     column-gap: 40px;
     max-width: 984px;
-    margin:0 auto 80px;
+    margin:0 auto;
     align-items: start;
 }
 
@@ -13,7 +13,7 @@
 @media screen and (max-width: 1024px) {
     .place {
         grid-template-columns: 440px 1fr;
-        grid-template-rows: auto 440px;
+        grid-template-rows: repeat(2, auto);
         max-width: 928px;
         column-gap: 32px;
     }
@@ -22,10 +22,9 @@
 @media screen and (max-width: 830px) {
     .place {
         grid-template-columns: 340px 1fr;
-        grid-template-rows: auto auto;
+        grid-template-rows: repeat(2, auto);
         max-width: 720px;
         column-gap: 28px;
-        margin:0 auto 73px;
     }
 }
 
@@ -35,6 +34,5 @@
         grid-template-rows:repeat(4, auto);
         max-width: 320px;
         row-gap: 32px;
-        margin:0 auto 50px;
     }
 }
